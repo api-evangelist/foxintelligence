@@ -1,21 +1,46 @@
 aid: foxintelligence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foxintelligence.png
 name: Foxintelligence
-description: 'Foxintelligence is a company surfaced as a portfolio company of partech and added to the
-  API Evangelist network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Foxintelligence was a French e-commerce measurement and consumer-insights
+  company that aggregated anonymized online purchase data from email receipts across
+  millions of e-shoppers to give brands and retailers competitive intelligence on
+  where, when, and how much consumers buy online. It was acquired by NielsenIQ and
+  operates today as the "NIQ Digital Purchases" product; the original www.foxintelligence.io
+  domain now 301-redirects to nielseniq.com. The surviving first-party surface is the
+  customer web application at app.foxintelligence.io (login only). No public API,
+  OpenAPI, SDK, or developer documentation is published; this profile is maintained
+  as an acquired-company record in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/foxintelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - partech
+x-acquired-by: nielseniq
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-company-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Applicative Saas
+- E-Commerce
+- Consumer Insights
+- Retail Data
+- Market Research
+- Data Analytics
+- Panel Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/foxintelligence-domain-security.yml
 - type: Website
   url: https://www.foxintelligence.io/
+- type: ProductPage
+  name: NIQ Digital Purchases (formerly Foxintelligence)
+  url: https://nielseniq.com/global/en/products/digital-purchases/
+- type: Login
+  name: Foxintelligence customer application
+  url: https://app.foxintelligence.io/sign-in
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
