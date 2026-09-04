@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.foxintelligence.io/', status: 301, note: 'declared website redirects to https://nielseniq.com/global/en/products/digital-purchases/ — a different registrable domain (foxintelligence.io -> nielseniq.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foxintelligence.png
 name: Foxintelligence
 description: 'Foxintelligence was a French e-commerce measurement and consumer-insights
